@@ -1,6 +1,14 @@
-// Import stylesheets
-import './style.css';
+let jmeno = "Marian";
+console.log("Marian");
+let vek = "30";
+console.log("30");
 
-// Write Javascript code!
-const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+
+if (vek > 18) {
+  // vykona pokud ten vyraz JE PRAVDA
+  console.log('Mate pravo ridit auto');
+} else {
+  //vykona, pokud vyraz NENI PRAVDA
+  console.log('Nemate pravo ridit auto');
+}
+
